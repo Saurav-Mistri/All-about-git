@@ -76,7 +76,18 @@ pwd
 For removing file from staging area :
 git rm --cached filename.extension
 
-For removing file from whole system :
+For removing file from HDD :
 git rm -f dlt.html
 
-asfds
+For summary of status(git status short hand) :
+git status -s
+
+For ignoring some file through the git :
+touch .gitignore
+example :
+-> for ignoring all log files
+*.log
+
+Note : for ignoring any file you need to add that filename.extension in .gitignore file
+
+For 
