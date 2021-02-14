@@ -76,4 +76,6 @@ pwd
 For removing file from staging area :
 git rm --cached filename.extension
 
-For
+For removing file from whole system :
+git rm -f dlt.html
+
