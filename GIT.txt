@@ -90,4 +90,9 @@ example :
 
 Note : for ignoring any file you need to add that filename.extension in .gitignore file
 
-For 
+For checking which branch you're currently working :
+git branch
+
+For defining branch :
+git branch branchname
+
