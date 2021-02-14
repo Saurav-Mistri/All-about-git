@@ -1,0 +1,47 @@
+Introduction : 
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+
+For download windows:
+https://git-scm.com/download/win
+
+Checking installation:
+Go in folder and check after clicking right-click of the mouse two option are added :
+1) git gui here
+2) git bash here
+
+For changing name or email : 
+-> For name : git config --global user.name Saurav-Mistri
+-> For email : git config --global user.email sauravmistri21@gmail.com
+
+For checking name or email : 
+-> For name : git config --global user.name
+-> For email : git config --global user.email
+
+For opening VS-Code :
+code .
+
+For clear screen :
+clear
+
+For initialized empty git repository :
+git init
+
+For checking all folders(hidden also) : 
+ls -lart
+
+For checking status :
+git status
+
+For creating empty file :
+touch filename.extension
+
+For tracking only 1 file :
+git add filename.extension
+
+Note : Untracked file is in red color and Staged area's file is in green color
+
+For tracking more than one file :
+git add -A
