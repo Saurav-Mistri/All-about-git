@@ -45,3 +45,24 @@ Note : Untracked file is in red color and Staged area's file is in green color
 
 For tracking more than one file :
 git add -A
+
+For commit the file :
+git commit -m "message"
+
+For undo the file data :
+Git checkout filename.extension
+
+For undo all files data :
+Git checkout -f
+
+For checking log data after commiting :
+git log
+
+For checking specific commit data:
+git log -p -1
+->for exit : q
+
+Note : When you modify any file then you must add that file into staging area
+
+For commit the file without adding staging area :
+git commit -a -m "message"
