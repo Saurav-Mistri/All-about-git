@@ -58,11 +58,22 @@ Git checkout -f
 For checking log data after commiting :
 git log
 
-For checking specific commit data:
+For checking last commit data:
 git log -p -1
+For checking last-2 commit data:
+git log -p -2
 ->for exit : q
 
 Note : When you modify any file then you must add that file into staging area
 
 For commit the file without adding staging area :
 git commit -a -m "message"
+
+For check parent working directory:
+pwd
+
+
+For removing file from staging area :
+git rm --cached filename.extension
+
+For
